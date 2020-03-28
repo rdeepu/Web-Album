@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no' />
+    <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+    <title>Photo albums</title>
+
+    <link
+      href='/styles/normalize.css'
+      rel='stylesheet'
+      type='text/css'
+    />
+
+    <link
+      href='https://fonts.googleapis.com/icon?family=Material+Icons'
+      rel='stylesheet'
+    />
+
+    <link href='/styles/nanduTwo.css' type='text/css' rel='stylesheet' />
+  </head>
+
+  <body>
+    <div class='cont'>
+
+      <div class = "cont_one">    
+        <div class='navbar'>
+          <i class = 'item_a material-icons'>collections</i>
+          <p class = 'item_b'>Albums</p>
+          <p class = 'item_c'>Nandana Lekshmi Pillai</p>
+          <a href = '/about' class='item_d hvr'>About</a>
+          <a href = '/signout' class='item_e hvr'>Sign out</a>
+        </div>
+
+        <img class = 'hdr' src = '/images/hdr.jpg' alt = 'Nandana photo' />
+
+        <p class='txt_one'>My Photo Albums</p>
+
+        <div class='lne'></div>
+
+        <div class = 'cont_two_a' id = 'tnailOne'>
+          <figure>
+            <img
+              class = 'tnail hvr_two'
+              src = '/images/Album-1/01.jpg'
+              alt = 'Baby Nandana'
+            />
+            <figcaption class='cption'>Those early days...</figcaption>
+          </figure>
+        </div>
+
+        <div class='cont_two_b' id = 'tnailTwo'>
+          <figure>
+            <img
+              class = 'tnail hvr_two'
+              src = '/images/Album-2/01.jpg'
+              alt = 'My first school day'
+            />
+            <figcaption class='cption'>My first school day..</figcaption>
+          </figure>
+        </div>
+
+        <div class = 'cont_two_c' id = 'tnailThree'>
+          <figure>
+            <img
+              class = 'tnail hvr_two'
+              src = '/images/Album-3/01.jpg'
+              alt = 'Castle Cochem, Germany'
+            />
+            <figcaption class='cption'>Castle Cochem, Germany</figcaption>
+          </figure>
+        </div>
+
+        <div class = 'cont_two_d' id = 'tnailFour'>
+          <figure>
+            <img
+              class = 'tnail hvr_two'
+              src = '/images/Album-4/01.jpg'
+              alt = 'Eifel national park'
+            />
+            <figcaption class='cption'>National park Eifel, Germany</figcaption>
+          </figure>
+        </div>
+
+        <div class = 'cont_two_e' id = 'tnailFive'>
+          <figure>
+            <img
+              class = 'tnail hvr_two'
+              src = '/images/Album-5/01.jpg'
+              alt = 'Kronborg Castle,Denmark'
+            />
+            <figcaption class='cption'>Kronborg Castle, Denmark</figcaption>
+          </figure>
+        </div>
+
+        <div class = 'cont_two_f' id = 'tnailSix'>
+          <figure>
+            <img
+              class = 'tnail hvr_two'
+              src = '/images/Album-6/01.jpg'
+              alt = 'Duisburg Zoo, Germany'
+            />
+            <figcaption class='cption'>Duisburg Zoo, Germany</figcaption>
+          </figure>
+        </div>
+
+         <div class = 'lne_a'></div>
+
+    </div>
+
+      <div class='albm'>
+        <span class='cls' onclick = 'clsClick()'>&#10006;</span>
+        <span class='prv' onclick = prvClick()>&#8249;</span>
+        <img class='photo' src='/images/Album-1/01.jpg' />
+        <img class='photo' src='/images/Album-1/02.jpg' />
+        <img class='photo' src='/images/Album-1/03.jpg' />
+        <span class = 'nxt' onclick = 'nxtClick()'>&#8250;</span>
+        <span class='dot dotOne'></span>
+        <span class='dot dotTwo'></span>
+        <span class='dot dotThree'></span>
+      </div>
+
+      <div class='albm'>
+        <span class='cls' onclick = 'clsClick()'>&#10006;</span>
+        <span class='prv' onclick = prvClick()>&#8249;</span>
+        <img class='photo' src='/images/Album-2/01.jpg' />
+        <img class='photo' src='/images/Album-2/02.jpg' />
+        <img class='photo' src='/images/Album-2/03.jpg' />
+        <span class='nxt' onclick = nxtClick()>&#8250;</span>
+        <span class='dot dotOne'></span>
+        <span class='dot dotTwo'></span>
+        <span class='dot dotThree'></span>
+      </div>
+
+      <div class='albm'>
+        <span class='cls' onclick='clsClick()'>&#10006;</span>
+        <span class='prv' onclick = prvClick()>&#8249;</span>
+        <img class='photo' src='/images/Album-3/01.jpg' />
+        <img class='photo' src='/images/Album-3/02.jpg' />
+        <img class='photo' src='/images/Album-3/03.jpg' />
+        <span class='nxt' onclick = nxtClick()>&#8250;</span>
+        <span class='dot dotOne'></span>
+        <span class='dot dotTwo'></span>
+        <span class='dot dotThree'></span>
+      </div>
+
+      <div class='albm'>
+        <span class='cls' onclick='clsClick()'>&#10006;</span>
+        <span class='prv' onclick = prvClick()>&#8249;</span>
+        <img class='photo' src='/images/Album-4/01.jpg' />
+        <img class='photo' src='/images/Album-4/02.jpg' />
+        <img class='photo' src='/images/Album-4/03.jpg' />
+        <span class='nxt' onclick = nxtClick()>&#8250;</span>
+        <span class='dot dotOne'></span>
+        <span class='dot dotTwo'></span>
+        <span class='dot dotThree'></span>
+      </div>
+
+      <div class='albm'>
+        <span class='cls' onclick='clsClick()'>&#10006;</span>
+        <span class='prv' onclick = prvClick()>&#8249;</span>
+        <img class='photo' src='/images/Album-5/01.jpg' />
+        <img class='photo' src='/images/Album-5/02.jpg' />
+        <img class='photo' src='/images/Album-5/03.jpg' />
+        <span class='nxt' onclick = nxtClick()>&#8250;</span>
+        <span class='dot dotOne'></span>
+        <span class='dot dotTwo'></span>
+        <span class='dot dotThree'></span>
+      </div>
+
+      <div class='albm'>
+        <span class='cls' onclick='clsClick()'>&#10006;</span>
+        <span class='prv' onclick = prvClick()>&#8249;</span>
+        <img class='photo' src='/images/Album-6/01.jpg' />
+        <img class='photo' src='/images/Album-6/02.jpg' />
+        <img class='photo' src='/images/Album-6/03.jpg' />
+        <span class='nxt' onclick = nxtClick()>&#8250;</span>
+        <span class='dot dotOne'></span>
+        <span class='dot dotTwo'></span>
+        <span class='dot dotThree'></span>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script src='/script/nanduTwo.js'></script>
+  </body>
+</html>

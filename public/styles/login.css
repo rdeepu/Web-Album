@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes");
+body {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background-color: #0e0d0d;
+  width: 1920px;
+  height: 1080px;
+  z-index: 0;
+  top: 0em;
+  overflow: visible;
+}
+
+@media (max-width: 1920px) {
+  [class*=cont] {
+    width: 100vw;
+    Height: 100vh;
+  }
+}
+
+.logbox {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background-color: #0e0d0d;
+  color: gold;
+  height: 100%;
+  width: 20%;
+  z-index: 0;
+}
+
+@media (max-width: 850px) {
+  [class*="logbox"] {
+    width: 100%;
+    height: 30em;
+    background-color: #0e0d0d;
+  }
+}
+
+img {
+  position: absolute;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 79.5%;
+  height: auto;
+  z-index: 0;
+  top: 1em;
+  margin-left: 0.1em;
+}
+
+@-webkit-keyframes anim {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes anim {
+  50% {
+    opacity: 0;
+  }
+}
+
+img.img_two {
+  -webkit-animation-name: anim;
+  animation-name: anim;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 30s;
+  animation-duration: 30s;
+}
+
+@media (max-width: 1500px) {
+  [class*="img"] {
+    top: 3em;
+  }
+}
+
+@media (max-width: 850px) {
+  [class*="img"] {
+    top: 30em;
+    width: 100%;
+    margin-left: 0.1em;
+  }
+}
+
+@media (max-width: 500px) {
+  [class*="img"] {
+    top: 25em;
+    right: 0em;
+  }
+}
+
+.pos_a {
+  font-size: 3em;
+  position: relative;
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+  top: 0em;
+}
+
+@media (max-width: 1500px) {
+  [class*="pos_a"] {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 850px) {
+  [class*="pos_a"] {
+    top: -2em;
+    font-size: 3.5em;
+  }
+}
+
+@media (max-width: 500px) {
+  [class*="pos_a"] {
+    top: -2em;
+    font-size: 2.5em;
+    margin-left: 0em;
+  }
+}
+
+form {
+  margin-top: 50%;
+  text-align: center;
+}
+
+@media (max-width: 1500px) {
+  form {
+    margin-top: 30%;
+  }
+}
+
+@media (max-width: 850px) {
+  form {
+    margin-top: -8em;
+  }
+}
+
+@media (max-width: 500px) {
+  form {
+    margin-top: -4em;
+  }
+}
+
+input[type="text"] {
+  background-color: black;
+  color: gold;
+  border-radius: 25px;
+  border: 2px solid;
+  outline: none;
+  padding: 15px;
+  width: 50%;
+}
+
+@media (max-width: 1500px) {
+  input[type="text"] {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  input[type="text"] {
+    padding: 5px;
+  }
+}
+
+input[type="password"] {
+  background-color: black;
+  color: gold;
+  border-radius: 25px;
+  border: 2px solid;
+  outline: none;
+  padding: 15px;
+  width: 50%;
+}
+
+@media (max-width: 1500px) {
+  input[type="password"] {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  input[type="password"] {
+    padding: 5px;
+  }
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: gold;
+  border-radius: 25px;
+  border: 2px solid;
+  outline: none;
+  padding: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 1500px) {
+  input[type="submit"] {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  input[type="submit"] {
+    padding: 5px;
+  }
+}
+/*# sourceMappingURL=nanduOne.css.map */
